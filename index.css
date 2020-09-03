@@ -16,75 +16,170 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	}
 *{
 	box-sizing:border-box;
+	max-width:100%;
 }
 html{
 	font-size:62.5%;
 }
 body{
 	line-height:1.2;
-	font-size:1.5rem;
+	font-size:1.6rem;
 	font-family:'Roboto Mono', monospace;
-	margin-left:2%;
-	margin-right:2%;
 }
-
+.links nav{
+	margin-top:3%;
+}
+.footerbuttons{
+	padding-top:3%;
+	padding-bottom:3%;
+}
 #button1{
+	width:10%;
+	font-size:2rem;
 	border-radius:10px;
 	color:white;
 	border: 2px solid #FF764E;
 	display: inline-block;
-	padding-top:.2rem;
-	padding-bottom:.2rem;
-	padding-right:1.4rem;
-	padding-left:1.4rem;
-	margin-left:20%;
-	margin-right:10%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-left:16%;
+	margin-right:9%;
 	background-color:#FF764E;
+	font-family:'Roboto Mono', monospace;
 }
 #button2{
+	width:10%;
+	font-size:2rem;
 	border-radius:10px;
 	color:white;
 	border: 2px solid #5ED3EB;
 	display: inline-block;
-	padding-top:.2rem;
-	padding-bottom:.2rem;
-	padding-right:1.4rem;
-	padding-left:1.4rem;
-	margin-left:10%;
-	margin-right:10%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-left:8%;
+	margin-right:8%;
 	background-color:#5ED3EB;
+	font-family:'Roboto Mono', monospace;
 }
 #button3{
+	width:10%;
+	font-size:2rem;
 	border-radius:10px;
 	color:white;
 	border: 2px solid #FFCD69;
 	display: inline-block;
-	padding-top:.2rem;
-	padding-bottom:.2rem;
-	padding-right:1.4rem;
-	padding-left:1.4rem;
-	margin-left:10%;
-	margin-right:20%;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-left:8%;
+	margin-right:16%;
 	background-color:#FFCD69;
+	font-family:'Roboto Mono', monospace;
 }
 .headsection{
+	width:100%;
 	display: inline-block;
 }
-.headimg img{
-	width:60%;
+.headsection img{
+	width:20%;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	margin: 5%;
 	border-radius:50%;
 }
-.headimg{
-	display: inline-block;
-	width:30%;
+
+.headtext {
+	font-size:2.5rem;
+	width:60%;
+	display:inline-block;
+	
 }
-.headtext{
-	display: inline-block;
-	width:30%;
+h1{
+	font-size:7rem;
+	font-family: 'Chelsea Market', cursive;
+	margin-top:10%;
+	margin-bottom:5%;
+	text-align:center;
 }
+.headtext p{
+	margin-bottom:3%;
+	text-align:center;
+}
+.headtext p:nth-child(3){
+	width:40%;
+	margin-left:30%;
+}
+#firstp #secondp{
+	font-size:2.5rem;
+}
+#firstp{
+	margin-bottom:3%;
+}
+
 .info{
 	background-color:#DDB9A3;
 	color:white;
-	padding:2rem;
-	
+	text-align: center;
+	font-size:2.5rem;
+	padding:.5%;
+	margin-left:3%;
+	margin-right:3%;
+}
+.info p{
+	font-size:2.5rem;
+	padding:.50%;
+}
+.fire img{
+	display: block;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+  }
+.fire p{
+	text-align:center;
+	width:15%;
+	margin-top:1%;
+	margin-left:42.5%;
+
+}
+.trailer img{
+	display: block;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:0;
+	width: 10%;
+}
+#firebold{
+	font-weight:900;
+}
+#trailerbold{
+	font-weight:900;
+}
+.trailer p{
+	text-align:center;
+	width:15%;
+	margin-top:1%;
+	margin-left:42.5%;
+	margin-bottom:5%;
+}
+footer{
+	background-color:#F9E7DC;
+}
+footer img{
+	width:100%;
+}
+.footerimg{
+	max-height: 400px;
+	overflow: hidden;
+}
+.footerimg img{
+	max-height: initial;
 }
