@@ -172,14 +172,13 @@ h1{
 }
 footer{
 	background-color:#F9E7DC;
+	background-image: src="assets/footer_img.jpg";
+}
+.footerimg{
+	max-height: 500px;
+	overflow: hidden;
 }
 footer img{
 	width:100%;
 }
-.footerimg{
-	max-height: 400px;
-	overflow: hidden;
-}
-.footerimg img{
-	max-height: initial;
-}
+
